@@ -1,3 +1,13 @@
 [build]
   publish = "."
   command = ""
+
+[[redirects]]
+  from = "/privacy-policy"
+  to = "https://hsynshle.github.io/diyetix-privacy/"
+  status = 200
+
+[[redirects]]
+  from = "/terms-of-service"
+  to = "https://hsynshle.github.io/diyetix-legal/"
+  status = 200
