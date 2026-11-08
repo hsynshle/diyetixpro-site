@@ -56,10 +56,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(246,251,247,.85);backdro
 .nav-links{display:flex;gap:28px;align-items:center}
 .nav-links a{font-weight:600;font-size:14.5px;color:var(--muted)}
 .nav-links a:hover{color:var(--green-d)}
-.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14.5px;padding:11px 18px;border-radius:12px;transition:transform .15s ease,box-shadow .15s ease;cursor:pointer;border:none}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14.5px;padding:11px 18px;border-radius:12px;transition:transform .15s ease,box-shadow .15s ease;cursor:pointer;border:none;white-space:nowrap}
 .btn-green{background:linear-gradient(135deg,var(--green),var(--green-d));color:#fff;box-shadow:0 6px 18px rgba(22,163,74,.35)}
 .btn-green:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(22,163,74,.45)}
-@media(max-width:760px){.nav-links{display:none}}
+@media(max-width:760px){.nav-links{display:none}}@media(max-width:560px){.nav .btn-green{display:none}}
 
 /* HERO */
 .hero{position:relative;overflow:hidden;background:
